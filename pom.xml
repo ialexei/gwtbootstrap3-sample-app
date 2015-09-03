@@ -13,8 +13,8 @@
     <name>SampleWebApp</name>
 
     <properties>
-        <gwt.version>2.6.0</gwt.version>
-        <gwtBootstrap3.version>0.8-SNAPSHOT</gwtBootstrap3.version>
+        <gwt.version>2.7.0</gwt.version>
+        <gwtBootstrap3.version>1.0-SNAPSHOT</gwtBootstrap3.version>
         <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -50,7 +50,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
-                <version>2.6.0</version>
+                <version>2.7.0</version>
                 <executions>
                     <execution>
                         <goals>
@@ -88,8 +88,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
         </plugins>
