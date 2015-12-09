@@ -4,7 +4,6 @@
              xmlns:b.html='urn:import:org.gwtbootstrap3.client.ui.html'>
 
     <g:VerticalPanel width="100%">
-		<b:Button type="PRIMARY" icon="TABLE" text="click me" ui:field="showPopupButton"/>
 		<g:SimplePanel ui:field="tableContainer"/>
 	</g:VerticalPanel>
 
