@@ -51,6 +51,7 @@ public class MyModal extends Modal {
 		
 		add(modalBody);
 		add(modalFooter);
+		setRemoveOnHide(true);
 	}
 
 	public Button getSaveButton() {

@@ -26,7 +26,7 @@ public class SampleWebApp extends Composite implements EntryPoint {
     @UiHandler("showPopupButton")
     public void onShowPopupButtonClicked(ClickEvent clickEvent) {
     	
-    	final MyModal myModal = new MyModal(new DialogContent(), "My buggy Popup");
+    	final MyModal myModal = new MyModal(new DialogContent(), "Lazy loading events sample");
     	myModal.getSaveButton().addClickHandler(new ClickHandler() {
 			
 			public void onClick(ClickEvent event) {
